@@ -1,0 +1,241 @@
+/* Estilos para la navegación */
+nav {
+  background-color: #084B8A;
+  color: #FFF;
+  padding: 20px;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  color: #FFF;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+/* Estilos para el footer */
+footer {
+  background-color: #084B8A;
+  color: #FFF;
+  padding: 20px;
+  text-align: center;
+}
+
+footer p {
+  margin: 10px 0;
+}
+
+footer a {
+  color: #FFF;
+  text-decoration: none;
+}
+
+/* Estilos generales */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.title {
+  text-align: center;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #084B8A;
+  color: #FFF;
+  text-decoration: none;
+  margin-top: 20px;
+}
+
+/* Estilos específicos para cada página */
+/* Aquí puedes agregar estilos específicos para cada página HTML */
+
+
+/* Estilos del contenido principal */
+.main-content {
+  display: flex;
+  align-items: center;
+}
+
+.main-image {
+  width: 70%;
+  float: left;
+  margin-right: 51px;
+  border-bottom: 20px solid #ffffff;
+}
+
+.text-wrapper {
+  flex: 1;
+}
+
+.main-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.main-description {
+  font-size: 15px;
+  margin-top: 15px;
+}
+
+/* Estilos para la sección de contacto */
+.contact-item img {
+  width: 20px; 
+  height: 20px; 
+}
+
+.contact-section {
+  background-color: #FFF;
+  padding: 50px 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.title {
+  text-align: center;
+  color: #084B8A;
+}
+
+.contact-info {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.contact-info h2 {
+  color: #084B8A;
+}
+
+.contact-info p {
+  margin-bottom: 20px;
+}
+
+.contact-details {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  margin-right: 40px;
+}
+
+.contact-item img {
+  margin-right: 10px;
+}
+
+.contact-item a {
+  color: #084B8A;
+  text-decoration: none;
+}
+
+.contact-form {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.contact-form h2 {
+  color: #084B8A;
+  margin-bottom: 20px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #CCC;
+  border-radius: 4px;
+}
+
+.contact-form textarea {
+  height: 120px;
+}
+
+.cta-button {
+  background-color: #084B8A;
+  color: #FFF;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Estilos para la sección de galeria */
+.gallery-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+.gallery-item {
+  position: relative;
+  overflow: hidden;
+}
+
+.gallery-item img {
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.gallery-item:hover img {
+  transform: scale(1.1);
+}
+
+.gallery-item .caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+}
+
+.gallery-item .caption h3 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.gallery-item .caption p {
+  margin: 5px 0;
+}
+
+/* Estilos para la sección de detalles */
+.detalles-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-section {
+  font-size: 24px; /* Tamaño del título */
+}
+
+.right-section {
+  font-size: 24px; /* Tamaño del título */
+}
+
+
